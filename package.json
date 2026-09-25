@@ -1,0 +1,20 @@
+{
+  "name": "qvac-local-concept-explainer",
+  "version": "1.0.0",
+  "description": "On-device AI concept explainer powered by Tether QVAC SDK. Fully local, no cloud, no API keys.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "explain": "node index.js"
+  },
+  "keywords": ["qvac", "local-ai", "on-device", "tether", "llm"],
+  "author": "maanizozo9",
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
